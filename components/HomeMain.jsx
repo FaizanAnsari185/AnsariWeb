@@ -3,7 +3,7 @@ import React from 'react'
 
 const HomeMain = () => {
   return (
-    <div className="relative" id='home'>
+    <div id="home" className="relative">
         <div className="h-full w-full bg-[#000000] absolute left-0 right-0 top-0 bottom-0 opacity-45"></div>
         <div>
           <div className="flex flex-col justify-center items-center gap-5 pt-52 pb-0 bg-gradient-to-b from-[#000000] to-[#00000048] text-white relative z-10">

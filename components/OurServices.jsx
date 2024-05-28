@@ -29,7 +29,7 @@ const OurServices = () => {
     },
   ]
   return (
-    <div className="bg-black text-white flex flex-col items-center gap-5 pt-20 p-10" id='services'>
+    <div id="services" className="bg-black text-white flex flex-col items-center gap-5 pt-20 p-10">
 
         <h1 className="text-6xl font-semibold">
           Our

@@ -43,7 +43,7 @@ const Projects = () => {
     },
   ];
   return (
-    <div className="bg-[#272a18] text-white py-20" id='project'>
+    <div id="project" className="bg-[#272a18] text-white py-20">
         <div className="flex flex-col items-center gap-7">
           <div className="text-6xl font-bold">
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-700 from-40% via-purple-300 via-80% to-white">
