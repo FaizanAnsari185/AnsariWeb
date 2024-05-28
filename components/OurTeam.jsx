@@ -54,7 +54,7 @@ const OurTeam = () => {
       </div>
       <div className="text-sm text-center font-medium">
         Meet our diverse team of creative minds, developers, and strategists –
-        the driving force behind every project's success.
+        the driving force behind every project&apos;s success.
       </div>
       <div className="flex gap-16">
         {cardDeatils.map((card) => (

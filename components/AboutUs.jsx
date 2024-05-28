@@ -14,11 +14,11 @@ const AboutUs = () => {
         <div className="font-light">
           At our digital agency, we blend creativity and expertise to craft
           bespoke digital solutions tailored to your needs. With a passion for
-          innovation, we're dedicated to delivering exceptional experiences that
+          innovation, we&apos;re dedicated to delivering exceptional experiences that
           captivate audiences and drive results. From web design and development
           to digital marketing and branding, our talented team is committed to
           exceeding expectations and helping your business thrive in the digital
-          landscape. Collaborate with us and let's bring your vision to life
+          landscape. Collaborate with us and let&apos;s bring your vision to life
           with creativity, precision, and ingenuity.
         </div>
         <div>

@@ -7,7 +7,7 @@ const ContactForm = () => {
       Join forces with us!
     </div>
     <div className="text-sm">
-      We craft beautifully simple designs and code with love. It's as
+      We craft beautifully simple designs and code with love. It&apos;s as
       simple as that!
     </div>
     <form className="flex flex-col gap-10">

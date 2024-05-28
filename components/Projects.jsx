@@ -70,7 +70,7 @@ const Projects = () => {
         <div className="flex flex-col gap-10 py-10 px-32">
           <div className="flex gap-10">
             {cardDetails.map((card) => (
-            <div className="bg-[#222222] rounded-3xl flex flex-col gap-7 border border-purple-700 hover:border-[#3e4226] p-5 w-80 transition ease-in-out delay-150 duration-500">
+            <div key={card.id} className="bg-[#222222] rounded-3xl flex flex-col gap-7 border border-purple-700 hover:border-[#3e4226] p-5 w-80 transition ease-in-out delay-150 duration-500">
               <div className="h-60">
                 <Image
                   className="h-full w-full rounded-3xl object-cover"
