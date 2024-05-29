@@ -33,7 +33,7 @@ const OurServices = () => {
 
         <h1 className="text-6xl font-semibold">
           Our
-          <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-600 via-purple-600 to-white">
+          <span className="text-transparent bg-clip-text bg-gradient-to-r from-rose-600 via-rose-600 to-white">
             Services
           </span>
         </h1>
@@ -42,9 +42,9 @@ const OurServices = () => {
         </h2>
         <div className="flex gap-10 py-10 px-20">
           {cardDetails.map((card) => (
-          <div key={card.id} className="bg-[#272a18] cursor-pointer border-2 border-[#272a18] flex flex-col gap-5 p-5 rounded-2xl hover:bg-black hover:border-2 hover:border-purple-600 transition ease-in-out duration-300">
+          <div key={card.id} className="bg-[#272a18] cursor-pointer border-2 border-[#272a18] flex flex-col gap-5 p-5 rounded-2xl hover:bg-black hover:border-2 hover:border-rose-600 transition ease-in-out duration-300">
             <div className="h-16 w-16 bg-[#16180d] rounded-2xl transition ease-in-out hover:scale-125 duration-500">
-              <div className="h-10 w-10 ml-3 mt-3">
+              <div className="h-10 w-10 ml-3 mt-3 transition ease-in-out hover:scale-150 duration-500">
                 <Image
                   className="h-full w-full"
                   src={card.img}

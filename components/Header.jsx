@@ -15,28 +15,28 @@ const Header = () => {
             srcset="" width={100} height={100}
           />
         </div>
-        <h1 className="text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-white from-50% via-purple-600 via-60% to-white">
+        <h1 className="text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-rose-700 from-40% via-white to-white">
           Ansari
         </h1>
       </div>
       <div className="flex gap-20 font-semibold">
-        <Link href={"#home"} className="hover:text-purple-500 cursor-pointer transition ease-in-out delay-100 duration-300">
+        <Link href={"#home"} className="hover:text-rose-500 cursor-pointer transition ease-in-out delay-100 duration-300">
           Home
         </Link>
-        <Link href={"#services"} scroll={true} className="hover:text-purple-500 cursor-pointer transition ease-in-out delay-100 duration-300">
+        <Link href={"#services"} scroll={true} className="hover:text-rose-500 cursor-pointer transition ease-in-out delay-100 duration-300">
           Our Services
         </Link>
-        <Link href={"#about"} className="hover:text-purple-500 cursor-pointer transition ease-in-out delay-100 duration-300">
+        <Link href={"#about"} className="hover:text-rose-500 cursor-pointer transition ease-in-out delay-100 duration-300">
           About Us
         </Link>
-        <Link href={"#project"} className="hover:text-purple-500 cursor-pointer transition ease-in-out delay-100 duration-300">
+        <Link href={"#project"} className="hover:text-rose-500 cursor-pointer transition ease-in-out delay-100 duration-300">
           Projects
         </Link>
-        <Link href={"#team"} className="hover:text-purple-500 cursor-pointer transition ease-in-out delay-100 duration-300">
+        <Link href={"#team"} className="hover:text-rose-500 cursor-pointer transition ease-in-out delay-100 duration-300">
           Teams
         </Link>
       </div>
-      <button className="bg-gradient-to-tl from-purple-600 to-black hover:from-black hover:to-black py-3 px-5 rounded-xl text-sm border-2 border-purple-600 hover:text-purple-500 hover:border-2  transition ease-in-out duration-300">
+      <button className="bg-gradient-to-tl from-rose-600 to-black hover:from-black hover:to-black py-3 px-5 rounded-xl text-sm border-2 border-rose-600 hover:text-rose-500 hover:border-2  transition ease-in-out duration-300">
         Contact Us
       </button>
     </div>

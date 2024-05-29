@@ -18,15 +18,15 @@ const Testimonials = () => {
   ]
   return (
     <div className="flex flex-col items-center text-white bg-black p-10">
-        <div className="text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-700 from-40% via-purple-500 to-white">
+        <div className="text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-rose-700 from-40% via-rose-500 to-white">
           Testimonials
         </div>
         <div className="text-2xl font-semibold mt-5">
-          What Our <span className="text-purple-600">Clients</span> Says
+          What Our <span className="text-rose-600">Clients</span> Says
         </div>
         <div className="flex gap-10 p-20 pb-0">
           {cardDetails.map((card) => (
-          <div key={card.id} className="bg-[#181818] text-white flex flex-col gap-7 items-center rounded-3xl p-16 w-1/2 border border-[#181818] hover:border-purple-600 transition ease-in-out delay-0 hover:scale-95 duration-500">
+          <div key={card.id} className="bg-[#181818] text-white flex flex-col gap-7 items-center rounded-3xl p-16 w-1/2 border border-[#181818] hover:border-rose-600 transition ease-in-out delay-0 hover:scale-95 duration-500">
             <div className="h-12 w-12">
               <Image
                 className="h-full w-full rounded-full object-cover object-center"

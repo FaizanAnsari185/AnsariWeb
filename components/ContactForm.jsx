@@ -2,8 +2,8 @@ import React from 'react'
 
 const ContactForm = () => {
   return (
-    <div className="flex flex-col gap-10 bg-gradient-to-tl from-[#222516] to-[#000000] rounded-3xl w-1/2 p-10 border border-[#181818] hover:border-purple-600 transition ease-in-out duration-500">
-    <div className="text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-700 via-purple-400 to-white">
+    <div className="flex flex-col gap-10 bg-gradient-to-tl from-[#222516] to-[#000000] rounded-3xl w-1/2 p-10 border border-[#181818] hover:border-rose-600 transition ease-in-out duration-500">
+    <div className="text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-rose-700 via-rose-400 to-white">
       Join forces with us!
     </div>
     <div className="text-sm">
@@ -13,14 +13,14 @@ const ContactForm = () => {
     <form className="flex flex-col gap-10">
       <div className="flex gap-5">
         <input
-          className="rounded-xl py-4 bg-black border border-bg-[#272a18] hover:border-purple-600 w-full text-sm font-light px-4"
+          className="rounded-xl py-4 bg-black border border-bg-[#272a18] hover:border-rose-600 w-full text-sm font-light px-4"
           placeholder="First Name"
           type="text"
           name="fname"
           autocomplete="off"
         />
         <input
-          className="rounded-xl py-4 bg-black border border-bg-[#272a18] hover:border-purple-600 w-full text-sm font-light px-4"
+          className="rounded-xl py-4 bg-black border border-bg-[#272a18] hover:border-rose-600 w-full text-sm font-light px-4"
           placeholder="Last Name"
           type="text"
           name="lname"
@@ -29,14 +29,14 @@ const ContactForm = () => {
       </div>
       <div className="flex gap-5">
         <input
-          className="rounded-xl py-4 bg-black border border-bg-[#272a18] hover:border-purple-600 w-full text-sm font-light px-4"
+          className="rounded-xl py-4 bg-black border border-bg-[#272a18] hover:border-rose-600 w-full text-sm font-light px-4"
           placeholder="Email Address"
           type="text"
           name="lname"
           autocomplete="off"
         />
         <input
-          className="rounded-xl py-4 bg-black border border-bg-[#272a18] hover:border-purple-600 w-full text-sm font-light px-4"
+          className="rounded-xl py-4 bg-black border border-bg-[#272a18] hover:border-rose-600 w-full text-sm font-light px-4"
           placeholder="Phone Number"
           type="text"
           name="lname"
@@ -44,7 +44,7 @@ const ContactForm = () => {
         />
       </div>
       <textarea
-        className="rounded-xl bg-black border border-bg-[#272a18] hover:border-purple-600 p-3"
+        className="rounded-xl bg-black border border-bg-[#272a18] hover:border-rose-600 p-3"
         placeholder="Message"
         id="w3review"
         name="w3review"
@@ -53,7 +53,7 @@ const ContactForm = () => {
       ></textarea>
       <div className="flex justify-center">
         <button
-          className="bg-gradient-to-tl from-purple-600 to-black hover:from-black hover:to-black py-3 px-5 rounded-xl text-sm border-2 hover:text-purple-600 hover:border-2 border-purple-600 transition ease-in-out duration-300"
+          className="bg-gradient-to-tl from-rose-600 to-black hover:from-black hover:to-black py-3 px-5 rounded-xl text-sm border-2 hover:text-rose-600 hover:border-2 border-rose-600 transition ease-in-out duration-300"
           type="submit"
         >
           Send Now

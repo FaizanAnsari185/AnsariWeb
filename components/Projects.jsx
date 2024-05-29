@@ -46,23 +46,23 @@ const Projects = () => {
     <div id="project" className="bg-[#272a18] text-white py-20">
         <div className="flex flex-col items-center gap-7">
           <div className="text-6xl font-bold">
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-700 from-40% via-purple-300 via-80% to-white">
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-rose-700 from-40% via-rose-300 via-80% to-white">
               Project
             </span>
             Built
           </div>
           <div className="text-2xl">By our team of engineers</div>
           <div className="flex gap-12">
-            <div className="hover:text-purple-600 cursor-pointer transition ease-in-out delay-100 duration-500">
+            <div className="hover:text-rose-600 cursor-pointer transition ease-in-out delay-100 duration-500">
               All
             </div>
-            <div className="hover:text-purple-600 cursor-pointer transition ease-in-out delay-100 duration-500">
+            <div className="hover:text-rose-600 cursor-pointer transition ease-in-out delay-100 duration-500">
               Web
             </div>
-            <div className="hover:text-purple-600 cursor-pointer transition ease-in-out delay-100 duration-500">
+            <div className="hover:text-rose-600 cursor-pointer transition ease-in-out delay-100 duration-500">
               Apps
             </div>
-            <div className="hover:text-purple-600 cursor-pointer transition ease-in-out delay-100 duration-500">
+            <div className="hover:text-rose-600 cursor-pointer transition ease-in-out delay-100 duration-500">
               UI/UX
             </div>
           </div>
@@ -70,7 +70,7 @@ const Projects = () => {
         <div className="flex flex-col gap-10 py-10 px-32">
           <div className="flex gap-10">
             {cardDetails.map((card) => (
-            <div key={card.id} className="bg-[#222222] rounded-3xl flex flex-col gap-7 border border-purple-700 hover:border-[#3e4226] p-5 w-80 transition ease-in-out delay-150 duration-500">
+            <div key={card.id} className="bg-[#222222] rounded-3xl flex flex-col gap-7 border border-rose-700 hover:border-[#3e4226] p-5 w-80 transition ease-in-out delay-150 duration-500">
               <div className="h-60">
                 <Image
                   className="h-full w-full rounded-3xl object-cover"
@@ -83,7 +83,7 @@ const Projects = () => {
                 {card.detail}
               </div>
               <div>
-                <button className="bg-gradient-to-tl from-purple-600 to-black hover:from-[#222222] hover:to-[#222222] py-3 px-5 rounded-xl text-sm border-2 hover:text-purple-600 hover:border-2 border-purple-600 transition ease-in-out duration-300">
+                <button className="bg-gradient-to-tl from-rose-600 to-black hover:from-[#222222] hover:to-[#222222] py-3 px-5 rounded-xl text-sm border-2 hover:text-rose-600 hover:border-2 border-rose-600 transition ease-in-out duration-300">
                   View
                 </button>
               </div>
@@ -92,7 +92,7 @@ const Projects = () => {
           </div>
           <div className="flex gap-10">
             {cardDetails2.map((card) => (
-              <div key={card.id} className="bg-[#222222] rounded-3xl flex flex-col gap-7 border border-purple-700 hover:border-[#3e4226] p-5 w-80 transition ease-in-out delay-150 duration-500">
+              <div key={card.id} className="bg-[#222222] rounded-3xl flex flex-col gap-7 border border-rose-700 hover:border-[#3e4226] p-5 w-80 transition ease-in-out delay-150 duration-500">
               <div className="h-60">
                 <Image
                   className="h-full w-full rounded-3xl object-cover"
@@ -105,7 +105,7 @@ const Projects = () => {
                 {card.detail}
               </div>
               <div>
-                <button className="bg-gradient-to-tl from-purple-600 to-black hover:from-[#222222] hover:to-[#222222] py-3 px-5 rounded-xl text-sm border-2 hover:text-purple-600 hover:border-2 border-purple-600 transition ease-in-out duration-300">
+                <button className="bg-gradient-to-tl from-rose-600 to-black hover:from-[#222222] hover:to-[#222222] py-3 px-5 rounded-xl text-sm border-2 hover:text-rose-600 hover:border-2 border-rose-600 transition ease-in-out duration-300">
                   View
                 </button>
               </div>

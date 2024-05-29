@@ -5,7 +5,7 @@ const AboutUs = () => {
   return (
     <div id="about" className="flex gap-5 bg-black text-white p-40">
       <div className="flex flex-col gap-5">
-        <div className="px-0 pt-0 pb-3 text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-700 via-white to-white">
+        <div className="px-0 pt-0 pb-3 text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-rose-700 via-white to-white">
           Ansari Agency
         </div>
         <div className="text-2xl font-semibold">
@@ -22,7 +22,7 @@ const AboutUs = () => {
           with creativity, precision, and ingenuity.
         </div>
         <div>
-          <button className="bg-gradient-to-tl from-purple-600 to-black hover:from-black hover:to-black py-3 px-5 rounded-xl text-sm border-2 hover:text-purple-600 hover:border-2 border-purple-600 transition ease-in-out duration-300">
+          <button className="bg-gradient-to-tl from-rose-600 to-black hover:from-black hover:to-black py-3 px-5 rounded-xl text-sm border-2 hover:text-rose-600 hover:border-2 border-rose-600 transition ease-in-out duration-300">
             Let Talk
           </button>
         </div>
@@ -42,7 +42,7 @@ const AboutUs = () => {
         </div>
         <div className="text-3xl font-bold">
           Possibility
-          <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-700 from-40% via-white to-white">
+          <span className="text-transparent bg-clip-text bg-gradient-to-r from-rose-700 from-40% via-white to-white">
             Minds
           </span>
         </div>

@@ -8,7 +8,7 @@ const HomeMain = () => {
         <div>
           <div className="flex flex-col justify-center items-center gap-5 pt-52 pb-0 bg-gradient-to-b from-[#000000] to-[#00000048] text-white relative z-10">
             <div>Creative Agency</div>
-            <div className="text-7xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-600 via-purple-600 to-white p-5">
+            <div className="text-7xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-rose-600 via-rose-600 to-white p-5">
               Digital Agency
             </div>
             <div className="text-6xl font-bold">Featuring Robust Design</div>
@@ -39,10 +39,10 @@ const HomeMain = () => {
               </div>
             </div>
             <div className="flex gap-7">
-              <button className="bg-gradient-to-tl from-purple-600 to-black hover:from-black hover:to-black py-3 px-5 rounded-xl text-sm border-2 hover:text-purple-600 hover:border-2 border-purple-600 transition ease-in-out duration-300">
+              <button className="bg-gradient-to-tl from-rose-600 to-black hover:from-black hover:to-black py-3 px-5 rounded-xl text-sm border-2 hover:text-rose-600 hover:border-2 border-rose-600 transition ease-in-out duration-300">
                 Contact Us
               </button>
-              <button className="bg-gray-800 py-3.5 px-5 rounded-xl text-sm hover:bg-gray-800 hover:text-purple-600 border-purple-600 transition ease-in-out duration-300">
+              <button className="bg-gray-800 py-3.5 px-5 rounded-xl text-sm hover:bg-gray-800 hover:text-rose-600 border-rose-600 transition ease-in-out duration-300">
                 Our Services
               </button>
             </div>

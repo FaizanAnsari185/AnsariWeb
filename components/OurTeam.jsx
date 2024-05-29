@@ -48,7 +48,7 @@ const OurTeam = () => {
     <div id="team" className="flex flex-col items-center gap-10 text-white bg-gradient-radial from-gray-950 to-black p-16">
       <div className="text-6xl font-bold">
         Our
-        <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-700 from-40% via-white to-white">
+        <span className="text-transparent bg-clip-text bg-gradient-to-r from-rose-700 from-40% via-white to-white">
           Teams
         </span>
       </div>
