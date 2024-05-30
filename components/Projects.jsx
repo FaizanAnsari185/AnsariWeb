@@ -68,7 +68,7 @@ const Projects = () => {
           </div>
         </div>
         <div className="flex flex-col gap-10 py-10 px-32">
-          <div className="flex gap-10">
+          <div className="flex gap-10 justify-center">
             {cardDetails.map((card) => (
             <div key={card.id} className="bg-[#222222] rounded-3xl flex flex-col gap-7 border border-rose-700 hover:border-[#3e4226] p-5 w-80 transition ease-in-out delay-150 duration-500">
               <div className="h-60">
@@ -90,7 +90,7 @@ const Projects = () => {
             </div>
             ))}
           </div>
-          <div className="flex gap-10">
+          <div className="flex gap-10 justify-center">
             {cardDetails2.map((card) => (
               <div key={card.id} className="bg-[#222222] rounded-3xl flex flex-col gap-7 border border-rose-700 hover:border-[#3e4226] p-5 w-80 transition ease-in-out delay-150 duration-500">
               <div className="h-60">
