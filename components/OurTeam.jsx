@@ -45,7 +45,7 @@ const OurTeam = () => {
     },
   ];
   return (
-    <div id="team" className="flex flex-col items-center gap-10 text-white bg-gradient-radial from-gray-950 to-black py-20">
+    <div id="team" className="flex flex-col items-center  gap-10 text-white bg-gradient-radial from-gray-950 to-black py-20">
       <div className="text-6xl font-bold">
         Our
         <span className="text-transparent bg-clip-text bg-gradient-to-r from-rose-700 from-40% via-white to-white">
@@ -56,9 +56,9 @@ const OurTeam = () => {
         Meet our diverse team of creative minds, developers, and strategists –
         the driving force behind every project&apos;s success.
       </div>
-      <div className="flex gap-16">
+      <div className="flex flex-wrap justify-center items-center gap-16">
         {cardDeatils.map((card) => (
-          <div key={card.id} className="bg-[#272a18] rounded-3xl flex flex-col items-center pb-7">
+          <div key={card.id} className="min-w-48 max-w-48 bg-[#272a18] rounded-3xl flex flex-col items-center pb-7">
             <div className="h-40 w-48 overflow-hidden rounded-3xl">
               <Image
                 className="h-full w-full rounded-3xl object-cover object-top transition ease-in-out delay-100 hover:scale-125 duration-500"

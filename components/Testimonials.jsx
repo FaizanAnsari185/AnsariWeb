@@ -24,7 +24,7 @@ const Testimonials = () => {
         <div className="text-2xl font-semibold mt-5">
           What Our <span className="text-rose-600">Clients</span> Says
         </div>
-        <div className="flex gap-10 p-20 pb-0">
+        <div className="flex flex-col justify-center items-center sm:flex-row sm:items-center gap-10 p-20 pb-0">
           {cardDetails.map((card) => (
           <div key={card.id} className="bg-[#181818] text-white flex flex-col gap-7 items-center rounded-3xl p-16 w-1/2 border border-[#181818] hover:border-rose-600 transition ease-in-out delay-0 hover:scale-95 duration-500">
             <div className="h-12 w-12">

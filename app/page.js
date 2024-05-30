@@ -27,7 +27,7 @@ export default function Home() {
       <OurTeam/>
       <Testimonials/>
       <ThreeDots/>
-      <div className="bg-black text-white flex gap-8 py-28 px-4">
+      <div className="bg-black text-white flex flex-col justify-center items-center sm:flex-row sm:items-start gap-8 py-28 px-4">
         <ContactForm/>
         <ContactCard/>
       </div>

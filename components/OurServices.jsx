@@ -39,9 +39,9 @@ const OurServices = () => {
         <h2 className="text-2xl font-bold">
           We specialize in strategic digital creativity
         </h2>
-        <div className="flex gap-10 justify-center">
+        <div className="flex flex-wrap gap-10 justify-center">
           {cardDetails.map((card) => (
-          <div key={card.id} className="bg-[#272a18] cursor-pointer border-2 border-[#272a18] flex flex-col gap-5 p-5 rounded-2xl hover:bg-black hover:border-2 hover:border-rose-600 transition ease-in-out duration-300">
+          <div key={card.id} className="min-w-72 max-w-72 bg-[#272a18] cursor-pointer border-2 border-[#272a18] flex flex-col gap-5 p-5 rounded-2xl hover:bg-black hover:border-2 hover:border-rose-600 transition ease-in-out duration-300">
             <div className="h-16 w-16 bg-[#16180d] rounded-2xl transition ease-in-out hover:scale-125 duration-500">
               <div className="h-10 w-10 ml-3 mt-3 transition ease-in-out hover:scale-150 duration-500">
                 <Image
