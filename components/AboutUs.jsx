@@ -3,7 +3,7 @@ import React from "react";
 
 const AboutUs = () => {
   return (
-    <div id="about" className="flex gap-5 bg-black text-white p-40">
+    <div id="about" className="flex gap-5 bg-black text-white px-4 py-40">
       <div className="flex flex-col gap-5">
         <div className="px-0 pt-0 pb-3 text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-rose-700 via-white to-white">
           Ansari Agency

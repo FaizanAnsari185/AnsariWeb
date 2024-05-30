@@ -29,8 +29,7 @@ const OurServices = () => {
     },
   ]
   return (
-    <div id="services" className="bg-black text-white flex flex-col items-center gap-5 pt-20 p-10">
-
+    <div id="services" className="bg-black text-white flex flex-col items-center gap-5 pt-20 p-4">
         <h1 className="text-6xl font-semibold">
           Our
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-rose-600 via-rose-600 to-white">
@@ -40,7 +39,7 @@ const OurServices = () => {
         <h2 className="text-2xl font-bold">
           We specialize in strategic digital creativity
         </h2>
-        <div className="flex gap-10 py-10 px-20">
+        <div className="flex gap-10 justify-center">
           {cardDetails.map((card) => (
           <div key={card.id} className="bg-[#272a18] cursor-pointer border-2 border-[#272a18] flex flex-col gap-5 p-5 rounded-2xl hover:bg-black hover:border-2 hover:border-rose-600 transition ease-in-out duration-300">
             <div className="h-16 w-16 bg-[#16180d] rounded-2xl transition ease-in-out hover:scale-125 duration-500">

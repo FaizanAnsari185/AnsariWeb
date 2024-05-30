@@ -17,7 +17,7 @@ const Testimonials = () => {
     }
   ]
   return (
-    <div className="flex flex-col items-center text-white bg-black p-10">
+    <div className="flex flex-col justify-center items-center text-white bg-black py-10 px-4">
         <div className="text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-rose-700 from-40% via-rose-500 to-white">
           Testimonials
         </div>

@@ -5,7 +5,7 @@ import FiverrLogo from './SVGs/FiverrLogo'
 
 const Footer = () => {
   return (
-    <div className="flex flex-col gap-10 bg-black text-white pt-32 pb-32">
+    <div className="flex flex-col gap-10 bg-black text-white pt-32 pb-5">
         <div className="flex gap-10 justify-center">
         <div className="h-6 w-6 transition ease-in-out hover:scale-125 duration-500 cursor-pointer">
             <Image
