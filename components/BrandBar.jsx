@@ -45,7 +45,7 @@ const BrandBar = () => {
     },
   ]
   return (
-    <div className="flex items-center gap-10 py-10 px-10 bg-black">
+    <div className="flex flex-col items-center sm:flex-row gap-5 sm:gap-10 py-10 px-10 bg-black">
       {brandBar.map((brand) => (
         <div key={brand.id} className="grayscale transition ease-in-out hover:scale-125 duration-300 cursor-pointer">
           <Image  src={brand.brandImage} alt="" width={100} height={100} />

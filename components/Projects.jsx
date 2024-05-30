@@ -71,7 +71,7 @@ const Projects = () => {
           </span>
           Built
         </div>
-        <div className="text-2xl">By our team of engineers</div>
+        <div className="font-bold text-base sm:text-xl">By our team of engineers</div>
         <div className="flex gap-12">
           <div
             className="hover:text-rose-600 cursor-pointer transition ease-in-out delay-100 duration-500"

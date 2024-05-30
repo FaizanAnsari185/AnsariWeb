@@ -18,6 +18,7 @@ export default function RootLayout({ children }) {
           backgroundRepeat: "no-repeat",
           backgroundSize: "100% 100%",
           backgroundAttachment: "fixed",
+          
         }}
       >
         {children}

@@ -23,11 +23,11 @@ const ContactCard = () => {
     },
   ];
   return (
-    <div className="flex flex-col gap-8 w-1/2">
+    <div className="flex flex-col justify-center items-center gap-8 w-1/2">
       {cardDetails.map((card) => (
         <div
           key={card.id}
-          className="bg-gradient-to-tl from-[#16180d] to-black hover:bg-gradient-to-br from-[#16180d] to-black rounded-3xl flex flex-col border border-[#181818] hover:border-rose-600 transition ease-in-out hover:scale-95 duration-300"
+          className="min-w-80 sm:w-full bg-gradient-to-tl from-[#16180d] to-black hover:bg-gradient-to-br from-[#16180d] to-black rounded-3xl flex flex-col border border-[#181818] hover:border-rose-600 transition ease-in-out hover:scale-95 duration-300"
         >
           <div>
           <div className="h-16 w-16 ml-5 mt-5 bg-[#16180d] hover:bg-[#0e0f0b] flex justify-center items-center rounded-full transition ease-in-out hover:scale-125 duration-500">

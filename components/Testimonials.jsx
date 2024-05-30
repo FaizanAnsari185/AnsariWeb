@@ -18,15 +18,15 @@ const Testimonials = () => {
   ]
   return (
     <div className="flex flex-col justify-center items-center text-white bg-black py-10 px-4">
-        <div className="text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-rose-700 from-40% via-rose-500 to-white">
+        <div className="text-5xl sm:text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-rose-700 from-40% via-rose-500 to-white">
           Testimonials
         </div>
-        <div className="text-2xl font-semibold mt-5">
+        <div className="text-xl sm:text-2xl font-semibold mt-5">
           What Our <span className="text-rose-600">Clients</span> Says
         </div>
-        <div className="flex flex-col justify-center items-center sm:flex-row sm:items-center gap-10 p-20 pb-0">
+        <div className="flex flex-col justify-center items-center sm:flex-row gap-10 p-20 pb-0">
           {cardDetails.map((card) => (
-          <div key={card.id} className="bg-[#181818] text-white flex flex-col gap-7 items-center rounded-3xl p-16 w-1/2 border border-[#181818] hover:border-rose-600 transition ease-in-out delay-0 hover:scale-95 duration-500">
+          <div key={card.id} className="min-w-80 bg-[#181818] text-white flex flex-col gap-7 items-center rounded-3xl p-16 w-1/2 border border-[#181818] hover:border-rose-600 transition ease-in-out delay-0 hover:scale-95 duration-500">
             <div className="h-12 w-12">
               <Image
                 className="h-full w-full rounded-full object-cover object-center"

@@ -5,7 +5,7 @@ import FiverrLogo from './SVGs/FiverrLogo'
 
 const Footer = () => {
   return (
-    <div className="flex flex-col gap-10 bg-black text-white pt-32 pb-5">
+    <div className="flex flex-col gap-10 bg-black text-white pt-32 pb-16">
         <div className="flex gap-10 justify-center">
         <div className="h-6 w-6 transition ease-in-out hover:scale-125 duration-500 cursor-pointer">
             <Image
@@ -36,7 +36,7 @@ const Footer = () => {
             />
           </div>
         </div>
-        <div className="flex gap-5 justify-center">
+        <div className="flex flex-col items-center sm:flex-row gap-5 justify-center">
           <Link href={"#home"} className="transition ease-in-out hover:text-rose-600 duration-300 cursor-pointer">
             Home
           </Link>
@@ -53,7 +53,7 @@ const Footer = () => {
             Teams
           </Link>
         </div>
-        <div className="flex justify-center text-xl font-thin">
+        <div className="flex justify-center text-xs sm:text-xl text-center font-thin">
           <i>Teacher Colony Ward No. 18 Nainwa 323801 Dist.Bundi Rajasthan</i>
         </div>
         <div className="flex flex-col items-center">
@@ -61,7 +61,7 @@ const Footer = () => {
             <div className="text-rose-600">
               Copyright © All right reserved - | 2024
             </div>
-            <div className="font-extralight">
+            <div className="font-extralight text-center text-xs sm:text-base">
               Built with love by Mohammad Faizan Ansari A.K.A Mr Faizu.
             </div>
           </div>
