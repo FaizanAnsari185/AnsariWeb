@@ -20,7 +20,7 @@ const Header = () => {
         </h1>
       </div>
       <div className="flex gap-20 font-semibold">
-        <Link href={"#home"} className="hover:text-rose-500 cursor-pointer transition ease-in-out delay-100 duration-300">
+        <Link href={"#home"} className=" hover:text-rose-500 cursor-pointer transition ease-in-out delay-100 duration-300">
           Home
         </Link>
         <Link href={"#services"} scroll={true} className="hover:text-rose-500 cursor-pointer transition ease-in-out delay-100 duration-300">
