@@ -5,7 +5,6 @@ import ContactForm from "@/components/ContactForm";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import HomeMain from "@/components/HomeMain";
-import LIne from "@/components/Line";
 import OurServices from "@/components/OurServices";
 import OurTeam from "@/components/OurTeam";
 import Projects from "@/components/Projects";
@@ -17,7 +16,7 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <main>
+    <main className="container mx-auto">
      <ScrollUp/>
      <Header/>
       <HomeMain/>

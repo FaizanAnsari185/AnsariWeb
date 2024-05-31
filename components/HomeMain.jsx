@@ -1,10 +1,11 @@
 import Image from 'next/image'
+import Link from 'next/link'
 import React from 'react'
 
 const HomeMain = () => {
   return (
     <div id="home" className="relative">
-        <div className="h-full w-full bg-[#000000] absolute left-0 right-0 top-0 bottom-0 opacity-45"></div>
+        <div className="h-full w-full bg-[#000000] absolute left-0 right-0 top-0 bottom-0 sm:opacity-45"></div>
         <div>
           <div className="flex flex-col justify-center items-center text-center gap-5 pt-10 sm:pt-52 pb-0 bg-gradient-to-b from-[#000000] to-[#00000048] text-white relative z-10">
             <div className='text-2xl font-bold sm:text-base sm:font-normal'>Creative Agency</div>
@@ -39,9 +40,9 @@ const HomeMain = () => {
               </div>
             </div>
             <div className="flex gap-7">
-              <button className="bg-gradient-to-tl from-rose-600 to-black hover:from-black hover:to-black py-3 px-5 rounded-xl text-sm border-2 hover:text-rose-600 hover:border-2 border-rose-600 transition ease-in-out duration-300">
+              <Link href={"#contact"} className="bg-gradient-to-tl from-rose-600 to-black hover:from-black hover:to-black py-3 px-5 rounded-xl text-sm border-2 hover:text-rose-600 hover:border-2 border-rose-600 transition ease-in-out duration-300">
                 Contact Us
-              </button>
+              </Link>
               <button className="bg-gray-800 py-3.5 px-5 rounded-xl text-sm hover:bg-gray-800 hover:text-rose-600 border-rose-600 transition ease-in-out duration-300">
                 Our Services
               </button>

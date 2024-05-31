@@ -14,10 +14,11 @@ const Testimonials = () => {
       image: "/assets/Client2.jpeg",
       name: "Nikki Stark",
       clientDetail: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea",
-    }
+    },
+
   ]
   return (
-    <div className="flex flex-col justify-center items-center text-white bg-black py-10 px-4">
+    <div className="flex flex-col justify-center items-center text-white bg-black py-10 px-4 ">
         <div className="text-5xl sm:text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-rose-700 from-40% via-rose-500 to-white">
           Testimonials
         </div>

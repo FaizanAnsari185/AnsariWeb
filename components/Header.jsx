@@ -36,9 +36,9 @@ const Header = () => {
           Teams
         </Link>
       </div>
-      <button className="bg-gradient-to-tl from-rose-600 to-black hover:from-black hover:to-black py-3 px-5 rounded-xl text-sm border-2 border-rose-600 hover:text-rose-500 hover:border-2  transition ease-in-out duration-300">
+      <Link href={"#contact"} className="bg-gradient-to-tl from-rose-600 to-black hover:from-black hover:to-black py-3 px-5 rounded-xl text-sm border-2 border-rose-600 hover:text-rose-500 hover:border-2  transition ease-in-out duration-300">
         Contact Us
-      </button>
+      </Link>
     </div>
   );
 };
