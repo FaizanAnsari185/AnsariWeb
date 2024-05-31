@@ -17,7 +17,7 @@ import Link from "next/link";
 export default function Home() {
   return (
     <main className="container mx-auto">
-     <ScrollUp/>
+     {/* <ScrollUp/> */}
      <Header/>
       <HomeMain/>
       <BrandBar/>
