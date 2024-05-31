@@ -7,7 +7,7 @@ const HomeMain = () => {
         <div className="h-full w-full bg-[#000000] absolute left-0 right-0 top-0 bottom-0 opacity-45"></div>
         <div>
           <div className="flex flex-col justify-center items-center text-center gap-5 pt-10 sm:pt-52 pb-0 bg-gradient-to-b from-[#000000] to-[#00000048] text-white relative z-10">
-            <div className='text-2xl font-bold sm:text-base sm:font-normal sm:font-bold'>Creative Agency</div>
+            <div className='text-2xl font-bold sm:text-base sm:font-normal'>Creative Agency</div>
             <div className="text-6xl sm:text-7xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-rose-600 via-rose-300 to-white p-5">
               Digital Agency
             </div>

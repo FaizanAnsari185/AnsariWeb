@@ -32,7 +32,6 @@ export default function Home() {
         <ContactForm/>
         <ContactCard/>
       </div>
-      
       <Footer/>
     </main>
   );
