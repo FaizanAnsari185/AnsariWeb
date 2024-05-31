@@ -54,7 +54,9 @@ const cardDetails = [
 
 const Projects = () => {
   const [projectArr, setProjectArr] = useState(cardDetails);
+  const [platform, setPlatform] = useState("all");
   function handlClick(p) {
+    setPlatform(p)
     if (p === "all") {
       setProjectArr(cardDetails);
     } else {
@@ -71,28 +73,38 @@ const Projects = () => {
           </span>
           Built
         </div>
-        <div className="font-bold text-base sm:text-xl">By our team of engineers</div>
+        <div className="font-bold text-base sm:text-xl">
+          By our team of engineers
+        </div>
         <div className="flex gap-12">
           <div
-            className="hover:text-rose-600 cursor-pointer transition ease-in-out delay-100 duration-500"
+            className={`hover:text-rose-600 cursor-pointer transition ease-in-out delay-100 duration-500 ${
+              platform === "all" && "text-rose-600"
+            }`}
             onClick={() => handlClick("all")}
           >
             All
           </div>
           <div
-            className="hover:text-rose-600 cursor-pointer transition ease-in-out delay-100 duration-500"
+            className={`hover:text-rose-600 cursor-pointer transition ease-in-out delay-100 duration-500 ${
+              platform === "web" && "text-rose-600"
+            }`}
             onClick={() => handlClick("web")}
           >
             Web
           </div>
           <div
-            className="hover:text-rose-600 cursor-pointer transition ease-in-out delay-100 duration-500"
+            className={`hover:text-rose-600 cursor-pointer transition ease-in-out delay-100 duration-500 ${
+              platform === "app" && "text-rose-600"
+            }`}
             onClick={() => handlClick("app")}
           >
             Apps
           </div>
           <div
-            className="hover:text-rose-600 cursor-pointer transition ease-in-out delay-100 duration-500"
+            className={`hover:text-rose-600 cursor-pointer transition ease-in-out delay-100 duration-500 ${
+              platform === "uxui" && "text-rose-600"
+            }`}
             onClick={() => handlClick("uxui")}
           >
             UI/UX
