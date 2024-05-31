@@ -5,7 +5,7 @@ const AboutUs = () => {
   return (
     <div id="about" className="flex flex-col justify-center items-center sm:flex-row sm:items-center gap-5 bg-black text-white px-4 py-40">
       <div className="flex flex-col justify-center items-center sm:flex-col sm:items-start gap-5">
-        <div className="text-center px-0 pt-0 pb-3 text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-rose-700 via-white to-white">
+        <div className="text-center px-0 pt-0 pb-3 text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-rose-700 via-rose-300 to-white">
           Ansari Agency
         </div>
         <div className="text-center text-2xl font-semibold">

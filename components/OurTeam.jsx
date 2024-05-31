@@ -52,7 +52,7 @@ const OurTeam = () => {
           Teams
         </span>
       </div>
-      <div className="text-sm text-center font-medium">
+      <div className="px-5 sm:px-0 text-sm text-center font-medium">
         Meet our diverse team of creative minds, developers, and strategists –
         the driving force behind every project&apos;s success.
       </div>
