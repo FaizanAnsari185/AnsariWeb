@@ -27,7 +27,7 @@ const Testimonials = () => {
         </div>
         <div className="flex flex-col justify-center items-center sm:flex-row gap-10 py-10">
           {cardDetails.map((card) => (
-          <div key={card.id} className="min-w-80 bg-[#181818] text-white flex flex-col gap-7 items-center rounded-3xl p-16 w-1/2 border border-[#181818] hover:border-rose-600 transition ease-in-out delay-0 hover:scale-95 duration-500">
+          <div key={card.id} className="min-w-80 bg-[#181818] text-white flex flex-col gap-7 items-center rounded-3xl p-16 w-1/2 border border-[#181818] hover:border-rose-600 transition ease-in-out hover:scale-95 duration-500">
             <div className="h-12 w-12">
               <Image
                 className="h-full w-full rounded-full object-cover object-center"

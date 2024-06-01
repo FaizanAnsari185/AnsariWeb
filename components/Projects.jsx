@@ -78,7 +78,7 @@ const Projects = () => {
         </div>
         <div className="flex gap-12">
           <div
-            className={`hover:text-rose-600 cursor-pointer transition ease-in-out delay-100 duration-300 ${
+            className={`hover:text-rose-600 cursor-pointer transition ease-in-out duration-300 ${
               platform === "all" && "text-rose-600"
             }`}
             onClick={() => handlClick("all")}
@@ -86,7 +86,7 @@ const Projects = () => {
             All
           </div>
           <div
-            className={`hover:text-rose-600 cursor-pointer transition ease-in-out delay-100 duration-300 ${
+            className={`hover:text-rose-600 cursor-pointer transition ease-in-out duration-300 ${
               platform === "web" && "text-rose-600"
             }`}
             onClick={() => handlClick("web")}
@@ -94,7 +94,7 @@ const Projects = () => {
             Web
           </div>
           <div
-            className={`hover:text-rose-600 cursor-pointer transition ease-in-out delay-100 duration-300 ${
+            className={`hover:text-rose-600 cursor-pointer transition ease-in-out duration-300 ${
               platform === "app" && "text-rose-600"
             }`}
             onClick={() => handlClick("app")}
@@ -102,7 +102,7 @@ const Projects = () => {
             Apps
           </div>
           <div
-            className={`hover:text-rose-600 cursor-pointer transition ease-in-out delay-100 duration-300 ${
+            className={`hover:text-rose-600 cursor-pointer transition ease-in-out duration-300 ${
               platform === "uxui" && "text-rose-600"
             }`}
             onClick={() => handlClick("uxui")}

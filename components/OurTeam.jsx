@@ -61,7 +61,7 @@ const OurTeam = () => {
           <div key={card.id} className="min-w-48 max-w-48 bg-[#272a18] rounded-3xl flex flex-col items-center pb-7">
             <div className="h-40 w-48 overflow-hidden rounded-3xl">
               <Image
-                className="h-full w-full rounded-3xl object-cover object-top transition ease-in-out delay-100 hover:scale-125 duration-500"
+                className="h-full w-full rounded-3xl object-cover object-top transition ease-in-out hover:scale-125 duration-500"
                 src={card.EmployeeImage}
                 alt="EmployeeDetails" width={100} height={100}
               />
