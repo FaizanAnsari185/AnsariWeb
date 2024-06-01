@@ -116,7 +116,7 @@ const Projects = () => {
           {projectArr.map((card) => (
             <div
               key={card.id}
-              className="min-w-80 max-w-80 bg-[#222222] rounded-3xl flex flex-col gap-7 border border-rose-700 hover:border-[#3e4226] p-5 transition ease-in-out delay-150 duration-500"
+              className="min-w-80 max-w-80 bg-[#222222] rounded-3xl flex flex-col gap-7 border border-rose-700 hover:border-[#3e4226] p-5 transition ease-in-out delay-150 duration-300"
             >
               <div className="h-60">
                 <Image
