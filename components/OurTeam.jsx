@@ -71,28 +71,28 @@ const OurTeam = () => {
               {card.EmployeeProfession}
             </div>
             <div className="flex gap-7">
-              <div className="h-4 w-4 transition ease-in-out hover:scale-150 duration-500 cursor-pointer">
+              <div className="h-4 w-4 transition ease-in-out hover:scale-150 duration-300 cursor-pointer">
                 <Image
                   className="h-full w-full"
                   src={card.facebook}
                   alt="" width={100} height={100}
                 />
               </div>
-              <div className="h-4 w-4 transition ease-in-out hover:scale-150 duration-500 cursor-pointer">
+              <div className="h-4 w-4 transition ease-in-out hover:scale-150 duration-300 cursor-pointer">
                 <Image
                   className="h-full w-full"
                   src={card.linkdian}
                   alt="" width={100} height={100}
                 />
               </div>
-              <div className="h-4 w-4 transition ease-in-out hover:scale-150 duration-500 cursor-pointer">
+              <div className="h-4 w-4 transition ease-in-out hover:scale-150 duration-300 cursor-pointer">
                 <Image
                   className="h-full w-full"
                   src={card.youtube}
                   alt="" width={100} height={100}
                 />
               </div>
-              <div className="h-4 w-4 transition ease-in-out hover:scale-150 duration-500 cursor-pointer">
+              <div className="h-4 w-4 transition ease-in-out hover:scale-150 duration-300 cursor-pointer">
                 <Image
                   className="h-full w-full"
                   src={card.instagram}
